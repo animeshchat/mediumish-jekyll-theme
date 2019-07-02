@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Let's test spoilers"
-author: sal
+author: ai 
 categories: [ Jekyll, tutorial ]
+tags: [ testtag1, testtag2 ]
 image: assets/images/12.jpg
 featured: true
 hidden: true

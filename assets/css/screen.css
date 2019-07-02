@@ -4,8 +4,8 @@ Copyright: Sal, WowThemes.net, https://www.wowthemes.net
 License: https://www.wowthemes.net/freebies-license/ 
 */
 @media screen and (min-width:1500px) {
-    html { font-size:18px; } /* Increase the font size on higher resolutions */
-    .container {max-width:80%;}
+    html { font-size:17px; } /* Increase the font size on higher resolutions */
+    .container {max-width:70%;}
 }
 .mainheading {
     padding: 1rem 0rem;
@@ -57,6 +57,7 @@ pre {
 
 section {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 section.recent-posts {
@@ -725,7 +726,7 @@ img {
 
 .bottompagination span.navigation {
     display: block;
-    font-size: 0.93rem;
+    font-size: 1.3rem;
     padding: 15px 0 0 0;
     text-align: center;
     margin-bottom: 0rem;
@@ -815,6 +816,10 @@ iframe {
     margin-bottom: 30px;
 }
 
+.mb-15px {
+  margin-bottom: 15px;
+}
+
 .flex-first {
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
@@ -844,8 +849,14 @@ iframe {
     }
 }
 
-.card .img-fluid {
+.card {
     width: 100%;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .sticky-top-80 {
