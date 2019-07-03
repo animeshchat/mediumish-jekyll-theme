@@ -10,7 +10,7 @@
           {{ post.title }}
         </a>
       </div>
-      <small><span class="post-date"><time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time></span></small>
+      <small><span class="post-date"><time class="post-date" datetime="{{ post.last_modified_at | date:"%Y-%m-%d" }}">{{ post.last_modified_at | date_to_string }}</time></span></small>
     </div>
     {% endfor %}
     
@@ -22,7 +22,7 @@
             {{ post.title }}
           </a>
         </div>
-        <small><span class="post-date"><time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time></span></small>
+        <small><span class="post-date"><time class="post-date" datetime="{{ post.last_modified_at | date:"%Y-%m-%d" }}">{{ post.last_modified_at | date_to_string }}</time></span></small>
       </div>
     {% endfor %}
   </div>
